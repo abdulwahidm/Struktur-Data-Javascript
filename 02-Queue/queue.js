@@ -1,3 +1,6 @@
+// Konsep stack adalah First In First Out (FIFO). 
+// Ilustrasinya seperti antrian di loket. 
+
 function createQueue() {
   const array = [];
 
