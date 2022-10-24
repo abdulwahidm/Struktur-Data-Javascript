@@ -10,6 +10,9 @@ function createQueue() {
     },
     peek: function() {
       return array[array.length - 1];
+    },
+    size: function() {
+      return array.length
     }
   }
 }
@@ -25,3 +28,4 @@ todos.dequeue();
 todos.dequeue();
 todos.dequeue();
 console.log(todos.peek());
+console.log(todos.size());
